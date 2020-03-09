@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+  <head>
+  
+
+	
+  </head>
+  <body>
+
+    <script type="text/javascript">
+		
+		var salario, imposto, real
+		
+		salario = prompt("Qual seu salário?")
+		salario = parseFloat(salario)
+		
+		if (salario <= 1903.99) 
+		
+		{
+		alert("Valor menor de 6 salários minimos, você não paga IRPF")
+		}
+		
+		//De R$ 1.903,99 até R$ 2.826,65
+		if(salario >= 1903.99 && salario <= 2826.65)
+		
+			imposto = salario * 7.5/100
+		
+		{	
+			alert("Valor maior de seis salários mínimos, você paga IRPF")
+		}
+		
+		if (salario >= 5988)
+		{
+	
+		}else
+		{
+			alert("No novo sistema, você está isento")
+		}
+		
+		
+
+    </script>  
+  
+  </body>
+</html>

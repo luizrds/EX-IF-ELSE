@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+  <head>
+  
+
+	
+  </head>
+  <body>
+
+    <script type="text/javascript">
+		
+		var tempo, distancia, velocidade
+		var minutos, horas, dias, meses, anos
+		velocidade = 300000
+		
+		distancia = prompt("Qual a distância?")
+		distancia = parseInt(distancia)
+		
+		tempo = distancia / velocidade
+		alert("Em segundos, deu:" + tempo)
+		
+		if(tempo >= 60)
+		{
+			minutos = tempo / 60
+			alert("Em minutos, deu:" + minutos)
+		}
+		
+		if(minutos >= 60)
+		{
+			horas = minutos / 60
+			alert("Em horas, deu:" + horas)
+		}
+		if(horas >= 24)
+		{
+			dias = horas / 24
+			alert("Em dias. deu:" + horas)
+		}
+		if(dias >= 30)
+		{
+			meses = dias / 30
+			alert("Em meses,deu" + meses)
+		}
+		if(meses >= 12)
+		{
+			anos = meses / 12
+			alert("Em anos, deu" + anos)
+		}
+		
+		
+		
+    </script>  
+  
+  </body>
+</html>
